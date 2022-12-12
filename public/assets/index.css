@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+header
+{
+  background-color: #ffb800;
+}
+
+.container
+{
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon 
+{
+  max-width: 62px;
+}
+
+  li
+{
+    display: inline-block;
+    margin: 20px;
+    font-size: 18px;
+    font-family: 'Amiko', sans-serif;
+}
+
+a
+{
+  text-decoration: none;
+  color: #7d7c79;
+}
+
+.loginn
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.s1
+{
+  max-width: 1232px;
+  margin: 0 auto;
+}
+
+.container2
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  gap: 200px;
+}
+
+.bloco1
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p1, .p2
+{
+  font-size: 25px;
+  font-family: 'Amiko', sans-serif;
+}
+
+.p2{
+  padding: 40px;
+}
+
+.logo1
+{
+  max-width: 400px;
+}
+
+.s2
+{
+  max-width: 1232px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+}
+
+.img1
+{
+  max-width: 170px;
+}
+
+.img22
+{
+  max-width: 170px;
+  border-radius: 100%;
+}
+
+.empresa-icons-principal, .influ-icons-principal{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.picons, .picons2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.backimg
+{
+  background-color: #ffb800;
+  border-radius: 40px;
+}
+
+.inficons, .inficons2{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+}
+
+.tit-empresa, .tit-influ
+{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: 'Amiko', sans-serif;
+}
+
+.h1emp, .h1influ
+{
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-family: 'Amiko', sans-serif;
+}
+
+footer
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: 'Amiko', sans-serif;
+}
+
+
+
+
+@media screen and (max-width: 1240px)
+{
+  .img1, .img22
+{
+  max-width: 140px;
+}
+
+.s2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.s1
+{
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+.container2
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  gap: 100px;
+}
+
+}
+
+@media screen and (max-width: 1240px)
+{
+  .s1
+{
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+}
+
+@media screen and (max-width: 990px)
+{
+  .s1
+{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.s2{
+  max-width: 800px;
+  gap: 30px;
+}
+
+.p2{
+  padding: 20px;
+}
+}
+
+@media screen and (max-width: 900px)
+{
+  .img1, .img22
+{
+  max-width: 130px;
+}
+  .s1
+{
+  max-width: 700px;
+  margin: 0 auto;
+}
+.logo1
+{
+  max-width: 300px;
+}
+.s2{
+  max-width: 700px;
+  gap: 10px;
+}
+.p1{
+  font-size: 22px;
+  
+}
+
+.p2{
+  padding: 20px;
+  font-size: 22px;
+}
+}
+
+@media screen and (max-width: 800px)
+{
+.s2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container2
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  gap: 70px;
+}
+}
+
+@media screen and (max-width: 430px)
+{
+  .img1, .img22
+{
+  max-width: 120px;
+}
+
+footer
+{
+  font-size: 10px;
+}
+
+
+}
+
+@media screen and (max-width: 430px)
+{
+  .img1, .img22
+{
+  max-width: 110px;
+}
+}
+
+@media screen and (max-width: 360px)
+{
+  .img1, .img22
+{
+  max-width: 100px;
+}
+.p1, .p2{
+  font-size: 20px;
+  padding: 20px;
+}
+
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/assets/posts.css">
+    <link rel="shortcut icon" href="/public/img/Logo (2).png" type="image/x-icon">
+    <title>Perfil</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <ul>
+            <li><a href="/in">Início</li>
+            <li><a href="/quems">Quem Somos</a></li>
+            <li><a href="/empresas">Empresas</a></li>
+            <li><a href="/influencers">Influencer</a></li>
+            <li><a href="/planos">Planos</a></li>
+            <li><a href="/contato">Contato</a></li>
+            <li><a href="/blog">Blog</a></li>
+
+          </ul>
+            
+          <div class="loginn">
+            <li><a href="/posts">Perfil</a></li>
+          <img class="icon" src="/public/img/log-icon.png">
+          </div>
+        </div>
+      </header>
+
+      <section class="s1">
+            <div class="titulo">
+            <img class="logo" src="/public/img/Logo (1).png">
+            <h1 class="h1titulo">Olá <%= name%></h1>
+            </div>
+      </section>
+
+
+    <div class="perfil">
+    <div class="conteudoperfil">
+
+      <div class="aaa">
+        <img class="icon2" src="/public/img/maleta-de-negocios (1).png">
+        <p><%= atuacao%></p>
+      </div>
+      <div class="aaa">
+        <img class="icon2" src="/public/img/instagram.png">
+        <p><%= insta%></p>
+      </div>
+      <div class="aaa">
+        <img class="icon2" src="/public/img/twitter (1).png">
+        <p><%= twitter%></p>
+      </div>
+      <div class="aaa">
+        <img class="icon2" src="/public/img/youtube (1).png">
+        <p><%= youtube%></p>
+      </div>
+
+    </div>
+  </div>
+
+    <form action="/add" method="post" >
+      <div class="postar">
+        <label>Evento</label>
+        <input class="input1" type="text" name="titulo">
+        <br>
+        <label>Informações</label>
+        <textarea style="resize: none;" class="input2" name="conteudo"></textarea>
+        <br><br>
+        <button class="botao" type="submit">Enviar</button>
+      </div>
+
+      </form>
+
+    <div class="butt">
+    <form action="/logout?_method=DELETE" method="post" >
+        <button class="button" type="submit">Logout</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>2022 Royal Influence - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+header
+{
+  background-color: #ffb800;
+}
+
+.container
+{
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon 
+{
+  max-width: 62px;
+}
+
+  li
+{
+    display: inline-block;
+    margin: 20px;
+    font-size: 18px;
+    font-family: 'Amiko', sans-serif;
+}
+
+a
+{
+  text-decoration: none;
+  color: #7d7c79;
+}
+
+
+.loginn
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+.h1titulo
+{
+font-size: 45px;
+margin-left: 45px;
+}
+.s1, .s2{
+    max-width: 1232px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.logo{
+max-width: 400px;
+}
+
+.titulo {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 100px;
+font-family: 'Amiko', sans-serif;
+}
+
+.quadrado1
+{
+  
+    background-color: #ffb800;
+    width: 600px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.quadrado2
+{
+  background-color: aliceblue;
+  width: 500px;
+  height: 450px;
+  border-radius: 40px;
+  margin-top: 50px;
+}
+
+.conteudo
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 20px;
+  gap: 40px;
+  font-family: 'Amiko', sans-serif;
+}
+
+.button
+{
+    height: 30px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: #7d7c79;
+    font-size: 20px;
+    font-family: 'Amiko', sans-serif;
+    cursor: pointer;
+}
+
+.butto
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#email, #senha
+{
+  width: 95%;
+  height: 20px;
+}
+
+.s2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+footer
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: 'Amiko', sans-serif;
+}
+
+@media screen and (max-width: 1240px)
+{
+.s2, .s1
+{
+  max-width: 1100px;
+}
+
+.h1titulo
+{
+  margin: 0;
+}
+.titulo
+{
+  gap: 70px;
+}
+}
+
+@media screen and (max-width: 1190px)
+{
+  .s1
+  {
+    max-width: 1000px;
+  }
+  .titulo
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}
+
+@media screen and (max-width: 610px)
+{
+  .logo
+{
+  max-width: 300px;
+}
+
+.quadrado1
+{
+  max-width: 450px;
+}
+
+.quadrado2
+{
+  max-width: 350px;
+}
+footer 
+{
+  font-size: 10px;
+}
+}
+
+@media screen and (max-width: 510px)
+{
+  .logo
+{
+  max-width: 300px;
+}
+
+.quadrado1
+{
+  max-width: 400px;
+}
+
+.quadrado2
+{
+  max-width: 300px;
+}
+
+.button
+{
+    height: 30px;
+    width: 200px;
+   margin-right: 20px;
+  
+}
+
+}
+
+@media screen and (max-width: 400px)
+{
+  .logo
+{
+  max-width: 300px;
+}
+
+.quadrado1
+{
+  max-width: 300px;
+}
+
+.quadrado2
+{
+  max-width: 200px;
+}
+
+.button
+{
+    height: 30px;
+    width: 150px;
+   margin-right: 20px;
+  
+}
+
+}
