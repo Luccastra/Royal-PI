@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+header
+{
+  background-color: #ffb800;
+}
+
+.container
+{
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon 
+{
+  max-width: 62px;
+}
+
+  li
+{
+    display: inline-block;
+    margin: 20px;
+    font-size: 18px;
+    font-family: 'Amiko', sans-serif;
+}
+
+a
+{
+  text-decoration: none;
+  color: #7d7c79;
+}
+
+.loginn
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1{
+  margin-top: 10px;
+}
+
+.h1titulo
+{
+font-size: 45px;
+margin-left: 45px;
+}
+
+.s1, .s2{
+    max-width: 1232px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.s2
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo{
+max-width: 400px;
+}
+
+.titulo {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 100px;
+font-family: 'Amiko', sans-serif;
+}
+
+.conteudo
+{
+  background-color: #ffb800;
+  width: 900px;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 40px;
+  
+  font-family: 'Amiko', sans-serif;
+}
+
+.conteudo2
+{
+  
+  background-color: aliceblue;
+  width: 800px;
+  height: 450px;
+  border-radius: 40px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.conteudo3
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 20px;
+  gap: 40px;
+  font-family: 'Amiko', sans-serif;
+}
+
+.conteudo4
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.tituloconteudo
+{
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  font-family: 'Amiko', sans-serif;
+  margin-right: 600px;
+  margin-top: 10px;
+}
+
+#nomecartao, #numerocartão
+{
+  width: 90%;
+  height: 20px;
+}
+
+#cvvcartao, #numerocartao
+{
+    width: 80%;
+    height: 20px;
+}
+
+#parcelas
+{
+    width: 35%;
+    height: 20px;
+}
+
+.numeroscartao
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.classenumerocartao, .classecvvcartao
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#nomecompleto, #endereco
+{
+    width: 90%;
+    height: 20px;
+}
+
+#cpf
+{
+    width: 60%;
+    height: 20px;
+}
+
+#numerocasa
+{
+    width: 60%;
+    height: 20px;
+}
+
+#complemento
+{
+    width: 80%;
+    height: 20px;
+}
+
+#cidade
+{
+    width: 80%;
+    height: 20px;
+}
+
+#estado
+{
+    width: 80%;
+    height: 20px;
+}
+
+.cidadeeestado, .numecomplemento
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.classcidade, .classestado, .complementocasa, .numerocasa
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.button
+{
+  
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 100px;
+    color: white;
+    background-color: #7d7c79;
+    font-size: 20px;
+    font-family: 'Amiko', sans-serif;
+}
+
+.butto
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p
+{
+  font-family: 'Amiko', sans-serif;
+}
+
+
+
+footer
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: 'Amiko', sans-serif;
+}
+
+@media screen and (max-width: 900px)
+{
+.titulo{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 30px;
+}
+
+.conteudo
+{
+  max-width: 800px;
+}
+.conteudo2
+{
+  max-width: 700px;
+}
+.h1titulo
+{
+  margin: 0;
+}
+}
+
+@media screen and (max-width: 800px)
+{
+.titulo{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 30px;
+}
+
+.conteudo
+{
+  max-width: 700px;
+}
+.conteudo2
+{
+  max-width: 600px;
+}
+
+.tituloconteudo
+{
+  margin-right: 0px;
+}
+}
+
+@media screen and (max-width: 690px)
+{
+.titulo{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 30px;
+}
+
+.conteudo
+{
+  max-width: 600px;
+}
+.conteudo2
+{
+  max-width: 500px;
+}
+
+.tituloconteudo
+{
+  margin-right: 0px;
+}
+}
+
+@media screen and (max-width: 590px)
+{
+.titulo{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 30px;
+}
+
+.conteudo
+{
+  max-width: 400px;
+  height: 900px;
+}
+.conteudo2
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  height: 780px;
+  gap: 20px;
+}
+
+.conteudo4
+{
+  margin-left: 20px;
+}
+
+.tituloconteudo
+{
+  margin-right: 0px;
+}
+}
+
+@media screen and (max-width: 490px)
+{
+.titulo{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 30px;
+}
+
+.conteudo
+{
+  max-width: 400px;
+  height: 900px;
+}
+.conteudo2
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  height: 780px;
+  gap: 20px;
+}
+
+.conteudo4
+{
+  margin-left: 20px;
+}
+
+.tituloconteudo
+{
+  margin-right: 0px;
+}
+footer
+{
+  font-size: 10px;
+}
+}
+
+@media screen and (max-width: 400px)
+{
+.titulo{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 30px;
+}
+
+.conteudo
+{
+  max-width: 300px;
+  height: 900px;
+}
+.conteudo2
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  height: 780px;
+  gap: 20px;
+}
+
+.conteudo4
+{
+  margin-left: 20px;
+}
+
+.tituloconteudo
+{
+  margin-right: 0px;
+}
+
+.button
+{
+    height: 40px;
+    width: 200px;
+}
+.logo
+{
+  max-width: 300px;
+}
+
+footer
+{
+  font-size: 10px;
+}
+}
+

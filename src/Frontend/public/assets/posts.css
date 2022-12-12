@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+header
+{
+  background-color: #ffb800;
+}
+
+.container
+{
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon 
+{
+  max-width: 62px;
+}
+
+  li
+{
+    display: inline-block;
+    margin: 20px;
+    font-size: 18px;
+    font-family: 'Amiko', sans-serif;
+}
+
+a
+{
+  text-decoration: none;
+  color: #7d7c79;
+}
+
+label {
+  font-family: 'Amiko', sans-serif;
+}
+
+.loginn
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+.h1titulo
+{
+font-size: 45px;
+
+}
+.s1, .s2{
+    max-width: 1232px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.logo{
+max-width: 400px;
+}
+
+.titulo {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 100px;
+font-family: 'Amiko', sans-serif;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: 'Amiko', sans-serif;
+}
+.postar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  font-family: 'Amiko', sans-serif;
+}
+
+.button {
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 100px;
+    color: white;
+    background-color: #7d7c79;
+    font-size: 20px;
+    font-family: 'Amiko', sans-serif;
+    cursor: pointer;
+}
+
+.conteudoperfil {
+  margin-top: 20px;
+}
+
+.butt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.icon2 {
+  max-width: 100px;
+}
+
+.aaa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.input1, .input2
+{
+  width: 90%;
+  height: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 280px;
+}
+
+.input2 {
+  height: 40px;
+}
+
+.input1:hover,
+.input2:hover {
+  border: 1px solid #ffb800;
+}
+
+.botao {
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 100px;
+    color: white;
+    background-color: #7d7c79;
+    font-size: 20px;
+    font-family: 'Amiko', sans-serif;
+    cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #ffb800;
+  
+}
+
+form {
+  margin-top: 60px;
+ 
+}
+
+footer
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: 'Amiko', sans-serif;
+}
+
+@media screen and (max-width: 760px)
+{
+  .titulo {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 760px)
+{
+  .logo {
+    max-width: 300px;
+
+  }
+  .titulo {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 420px)
+{
+  footer
+  {
+    font-size: 10px;
+  }
+  .h1titulo
+{
+font-size: 35px;
+
+}
+
+}
+
+@media screen and (max-width: 325px)
+{
+  .icon {
+    display: none;
+  }
+  .logo {
+    max-width: 250px;
+  }
+  .button {
+    height: 40px;
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 100px;
+    color: white;
+    background-color: #7d7c79;
+    font-size: 20px;
+    font-family: 'Amiko', sans-serif;
+    cursor: pointer;
+}
+.h1titulo
+{
+font-size: 25px;
+}
+
+}
